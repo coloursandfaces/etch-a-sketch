@@ -5,8 +5,8 @@
   
   #container {
     display: grid;    
-    width: 50%;
-    height: 50%;
+    width: 800px;
+    height: 600px;
     grid-gap: 0;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
@@ -16,8 +16,5 @@
   }
   
   .grid-item {
-    padding: 1em;
-    border: 1px solid #ddd;
-    text-align: center;
-    width: f
+    border: .1px solid black;
   }
