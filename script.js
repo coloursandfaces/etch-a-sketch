@@ -19,7 +19,7 @@ makeRows(16, 16);
 
 
 container.addEventListener('mouseover', (event) => {
-    event.target.style.backgroundColor = "orange";
+    event.target.style.backgroundColor = "turquoise";
 })
 
 const square = document.getElementById('square');
